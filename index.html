@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASP</title>
+
+    <!-- Carrosel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- icones -  font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- FavIcone da Pagina -->
+    <link rel="shortcut icon" href="image/logo-.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- menu -->
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"> <img src="image/logo-.png" alt=""> </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="html/ComoFunciona.html">Como Funciona</a>
+        <a href="../tasp-main/sobre/sobre.html">Sobre</a>
+        <a href="../tasp-main/Tcc serviços/servicos.html">Serviços</a>
+        <a href="../tasp-main/html/parceiros.html">Parceiros</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    <!-- login -->
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>login do usuario</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="senha" class="box">
+        <p> Esqueceu a senha <a href="#">clique aqui</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>entra com</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+        </div>
+        <p> Não Tem Conta <a href="#">criar conta</a> </p>
+    </form>
+
+</div>
+<!-- BANNER HOME  -->
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">TASP</h3>
+
+    <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
+
+    <a data-speed="7" href="Tcc serviços/servicos.html" class="btn home-parallax">Saiba mais</a>
+
+</section>
+
+<!-- INFORMAÇÕES  -->
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="info">
+            <h3>350+</h3>
+            <p>Hoteis parceiros</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="info">
+            <h3>9770+</h3>
+            <p>Viagens realizadas</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="info">
+            <h3>9320+</h3>
+            <p>Passageiros Felizes</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="info">
+            <h3>2500+</h3>
+            <p>carros adaptados</p>
+        </div>
+    </div>
+
+</section>
+<!-- LOCAIS INDICADOS PELA TASP -->
+<section class="locais" id="locais">
+
+    <h1 class="heading"> Locais indicados <span>pela TASP</span> </h1>
+
+    <div class="swiper locais-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/Parque-do-Ibirapuera.jpg" alt="">
+                <div class="content">
+                    <h3>Parque Ibirapuera</h3>
+                    <p>
+                        Cobramos abaixo do valor das corridas convencionais
+                        <span class="fas fa-circle"></span> Acessibilidade
+                        <span class="fas fa-circle"></span> pouco ruido
+                        <span class="fas fa-circle"></span> ar livre
+                        <span class="fas fa-circle"></span> diversas atividades
+                    </p>
+                    <a href="https://www.instagram.com/ibirapueraoficial/" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/shopping-metro-boulevard.jpg" alt="">
+                <div class="content">
+                    <h3>shopping Tatuape</h3>
+                    <p>
+                        Cobramos abaixo do valor das corridas convencionais
+                        <span class="fas fa-circle"></span> Acessibilidade
+                        <span class="fas fa-circle"></span> ruidos moderados
+                        <span class="fas fa-circle"></span> local fechado com movimentação
+                        <span class="fas fa-circle"></span> diversas lojas
+                    </p>
+                    <a href="https://www.complexotatuape.com.br/" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/catavento.jpg" alt="">
+                <div class="content">
+                    <h3>Museu Catavento Cultural</h3>
+                    <p>
+                        Cobramos abaixo do valor das corridas convencionais
+                        <span class="fas fa-circle"></span> Acessibilidade
+                        <span class="fas fa-circle"></span> Exposições
+                        <span class="fas fa-circle"></span> Local fechado com movimentação
+                        <span class="fas fa-circle"></span> Diversas Obras
+                    </p>
+                    <a href="https://museucatavento.org.br/" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sesc.jpg" alt="">
+                <div class="content">
+                    <h3>Sesc Itaquera</h3>
+                    <p>
+                        Cobramos abaixo do valor das corridas convencionais
+                        <span class="fas fa-circle"></span> Acessibilidade
+                        <span class="fas fa-circle"></span> Eventos Culturais
+                        <span class="fas fa-circle"></span> Pratica de Esportes
+                        <span class="fas fa-circle"></span> Ambiente de Natureza
+                    </p>
+                    <a href="https://www.sescsp.org.br/" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/estadio.jpg" alt="">
+                <div class="content">
+                    <h3>Estádio Morumbi</h3>
+                    <p>
+                        Cobramos abaixo do valor das corridas convencionais
+                        <span class="fas fa-circle"></span> Acessibilidade
+                        <span class="fas fa-circle"></span> ruidos altos
+                        <span class="fas fa-circle"></span> Eventos Esportivos
+                        <span class="fas fa-circle"></span> local fechado com movimentação
+        
+                    </p>
+                    <a href="http://www.saopaulofc.net/estrutura/morumbi/sobre-o-morumbi" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/masp.jpg" alt="">
+                <div class="content">
+                    <h3>MASP</h3>
+                    <p>
+                        Cobramos abaixo do valor das corridas convencionais
+                        <span class="fas fa-circle"></span> Acessibilidade
+                        <span class="fas fa-circle"></span> ruidos altos
+                        <span class="fas fa-circle"></span> local fechado com movimentação
+        
+                    </p>
+                    <a href="https://masp.org.br/" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- pontinho / bolinha em baixo da imagem  -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+
+<!-- NOSSOS SERVIÇOS -->
+<section class="servicos" id="servicos">
+
+    <h1 class="heading"> Nossos <span>serviços</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>motoristas treinados</h3>
+            <p>Condutores especializados no transporte de pessoas com deficiência e no seu zelo com veiculos adaptados à sua necessidade</p>
+            <a href="https://ead.sestsenat.org.br/" class="btn"> Saiba mais</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Hospedagem</h3>
+            <p>rede de hotéis parceiros, colaborando com ambientes inclusivos para te proporcionar momentos unicos.</p>
+            <a href="https://www.trivago.com.br/pt-BR" class="btn"> Saiba mais</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>Suporte 24h</h3>
+            <p>suporte e rastreamento a incidentes para contribuir com o bem-estar e a proteção de todas as pessoas que usam nossa plataforma. seja motorista ou passageiro</p>
+            <a href="https://destrave.se/" class="btn"> Saiba mais</a>
+        </div>
+
+    </div>
+
+</section>
+<!-- RODAPÉ -->
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+                <div class="box">
+            <h3>Menu</h3>
+            <a href="index.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="html/ComoFunciona.html"> <i class="fas fa-arrow-right"></i> como funciona </a>
+            <a href="sobre/sobre.html"> <i class="fas fa-arrow-right"></i> sobre </a>
+            <a href="Tcc serviços/servicos.html"> <i class="fas fa-arrow-right"></i> serviços </a>
+            <a href="html/parceiros.html"> <i class="fas fa-arrow-right"></i> parceiros</a>
+           
+        </div>
+
+        <div class="box">
+            <h3>Contato</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 11-1111-0000 </a>
+            <a href="#"> <i class="fas fa-phone"></i> 11-2222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> taspios1@gmail.com </a>
+            <a href="https://www.google.com/maps/place/R.+Cel.+Lu%C3%ADs+Barroso,+455"> <i class="fas fa-map-marker-alt"></i> São Paulo, Brasil  </a>
+        </div>
+
+        <div class="box">
+            <h3>Redes sociais & App</h3>
+            <a href="https://www.instagram.com/tasp.oficial/"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://www.apple.com/br/app-store/"> <i class="fab fa-app-store"></i> Baixe - App Store </a>
+            <a href="https://play.google.com/store/games"> <i class="fab fa-google-play"></i> Baixe - Play store </a>
+            
+        </div>
+
+    </div>
+
+    <div class="credit"> Instituto da Oportunidade | TCC site TASP - 2022</div>
+
+</section>
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

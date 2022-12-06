@@ -1,0 +1,91 @@
+.imgTasp{
+    padding: 50px;
+}
+
+.imgTasp :hover{
+    transform: scale(1.09);
+    transition: 2.5s;
+}
+
+.sobre{
+    margin-top: 100px;
+    align-items: center;
+}
+
+.sobre1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sobre1 img{
+    margin-top: 3rem;
+}
+
+.historia{
+    max-width: 600px;
+    font-size:medium ;
+    text-align: justify;
+}
+.box-container{
+    margin-top: 80px;
+}
+
+/*@media (min-width:1024px){
+    *{
+        min-width: 80%;
+        display: grid;
+        justify-content: center;
+    }
+    .sobre1 img{
+        max-width: 500px;
+        margin-left: 5rem;
+        margin-top: 5rem;
+        align-items: center;
+    }
+}*/
+
+
+@media (min-width: 700px) and (max-width: 1000px){
+    .historia{
+        max-width: 100%;
+    }
+
+    p.historia{
+        margin: 0;
+    }
+
+    .sobre1{
+        display: block;
+    }
+    
+    .imgTasp{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .sobre1 img{
+        margin: 0 auto;
+        text-align: center;
+    }
+} 
+
+@media (min-width: 200px) and (max-width: 699px){
+    *{
+        max-width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+    .sobre1{
+        display: grid;
+    }
+    .sobre1 img{
+        display: grid;
+        justify-content: center;
+    }
+} 
+
+
+

@@ -1,0 +1,116 @@
+
+body {
+    background-color: #fff;
+}
+
+.gif{
+    text-align: center;
+    padding: 15px;
+}
+
+.imagens{
+    background-color:#007fff;
+    margin: 50px 40px;
+    align-items: center;
+    
+    
+}
+
+.parte1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagem {
+    margin: 20px 50px;
+    border: 5px solid #007fff;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+    
+
+}
+.imagem:hover { 
+    border: 10px solid #1929bd;
+    background-color: #007fff(0,0,0,.1);
+    transition: 1s;  
+    }
+
+
+
+
+/* RESPONSIVO 
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:2rem;
+    }
+
+    .header.active{
+        padding:2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: block;
+    }
+
+    #menu-btn.fa-times{
+        transform:rotate(180deg);
+    }
+
+    #login-btn .btn{
+        display: none;
+    }
+
+    #login-btn i{
+        display: block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background: #fff;
+        border-top: var(--border);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .header .navbar a{
+        margin:2rem;
+        display: block;
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .heading{
+        font-size: 3rem;
+    }
+
+}
+
+*/

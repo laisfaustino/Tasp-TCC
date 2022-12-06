@@ -1,0 +1,40 @@
+
+body {
+    background-color: #fff;
+}
+
+.gif{
+    text-align: center;
+    padding: 15px;
+}
+
+.imagens{
+    background-color:#007fff;
+    margin: 40px 60px;
+    
+}
+
+.parte1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagem {
+    margin: 20px 50px;
+    border: 5px solid #007fff;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+    
+
+}
+.imagem:hover { 
+    border: 10px solid #1929bd;
+    background-color: #007fff(0,0,0,.1);
+    transition: 1s;  
+    }
+
+
+
